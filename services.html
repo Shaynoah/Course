@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <title>Services</title>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+      
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }
+        
+        body{
+            font-size: 16px;
+            font-family: 'caveat';
+            background-color:rgb(24, 24, 49);
+            border: 1px solid gold;
+            margin: 0;
+            padding: 0 30px 0 30px;
+            overflow: none;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            margin:0;
+            padding: 0 20px 0 20px;
+            width: 15%;
+            position: fixed;
+            top:0;
+            left:0;
+            margin-top: auto;
+            height: 100%;
+            
+        }
+        a{
+            display: flex;
+            height: 40px;
+            width: auto;
+            background: linear-gradient(145deg,rgb(4, 4, 102),darkblue);
+            color: gold;
+            border-radius: 30px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;    
+            text-decoration: none;
+            margin: 20px 0 20px 10px;  
+        padding: 8px 16px;
+        
+        }
+        a:hover{
+            background:lightblue;
+            box-shadow: inset 29px 29px 58px #0031f693,
+                        inset -29px -29px 58px lightblue;
+        }
+        section{
+            margin-left: 14%;
+            display: grid;
+            
+            border-radius: 10px;
+            color: white;
+            background-color:rgb(24, 24, 49);
+        }
+        .section>div{
+           
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        footer{
+        background-color: blanchedalmond;
+        color:black;
+       padding:-;
+        text-align: center;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+        }
+        .head{
+            background-color: rgb(0, 0, 0);
+            margin-left: 15%;
+            color: gold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        .title{
+            color: gold;
+           font-family: Georgia, 'Times New Roman', Times, serif; 
+        }
+     h1{
+        color: darkgoldenrod;
+        text-align: center;
+     }
+     .overview{
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+     }
+     .serve{
+        width: 300px;
+     }
+     .faq {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}
+
+/* Style for question labels */
+.faq-label {
+  max-width: 600px;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: darkgoldenrod;
+}
+
+/* Hide checkboxes */
+.faq-toggle {
+  display: none;
+}
+
+/* Style for answer boxes */
+.faq-answer {
+  display: none;
+  padding-left: 20px;
+  color: white;
+}
+
+/* Show answer when checkbox is checked */
+.faq-toggle:checked + .faq-label + .faq-answer {
+  display: block;
+}
+
+  
+  
+    /* Style the icons */
+    .social-icons {
+      list-style: none;
+      padding: 0;
+    }
+    .social-icons li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .social-icons li a {
+      text-decoration: none;
+     
+      font-size: 24px;
+    }
+    /* Style individual icons (customize as needed) */
+    .social-icons li a:hover {
+      color: darkgoldenrod;
+    }
+    /* Instagram icon style */
+    .social-icons li a.fa-instagram:hover {
+      color: #e4405f;
+    }
+    .social-icons li a.fa-envelope:hover{
+        color: #dd4b39;
+    }
+    
+      
+     
+  
+    
+      
+    
+  </style>
+</head>
+<body>
+
+
+</body>
+</html>
+
+
+
+    </style>
+ 
+
+    </head>
+    <body class="body">
+        
+        <nav>
+            
+            <div><h3 class="title">COURSE CORRECT</h3></div>
+            <div class="links">
+        <a href="dashbd.php">Home</a>
+            <a href="services.html">Services</a>
+            <a href="wallet.html">Wallet</a>
+            <a href="chatroom.html">Chatroom</a>
+            <a href="setting.html">Settings</a>
+            
+            <a href="logout.php">logout</a>
+        </div>
+        </nav>
+       
+        <section>
+         
+        
+            <div class="section">
+            <h1 style="font-size: 3vw;">Service<br>
+            Overview</h1>
+            <hr>
+            <div class="overview">
+            <p>With deligence,honesty and transparency,we serve the community.<br>
+            We offer our services to help students manage school work,<br>
+        balance whatever commitments they have and always<br>be on point when it comes to grades.</p>
+        <hr>
+           
+        <div class="faq">
+            <div class="faq-question">
+              <input type="checkbox" class="faq-toggle" id="question1">
+              <label for="question1" class="faq-label"> Education</label>
+              <div class="faq-answer">
+                <p>Caught up with Assignments,Cats or Projects?<br>
+                Don't sweat it.<br>
+                Yapp!! I said It!<br>
+                We have a specialised and reliable team to cover all that for you
+            </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq">
+            <div class="faq-question">
+              <input type="checkbox" class="faq-toggle" id="question2">
+              <label for="question2" class="faq-label"> Expenditure</label>
+              <div class="faq-answer">
+                <p>We knoe for sure you haven't seen anything like this before:<br>
+                    Assignments: sh 200/1.3$<br>
+                    Cats:sh 300/1.9$<br>
+                    Online Exams:sh 400/2.5$<br>
+                    Projects:sh500/3.2$<br><br>
+                    This prices stated above are the minimal prices.They increase gradually per<br>
+                    lengthiness of the submitted requests and how much extensive research<br>is required for maximum 
+                    results when it comes to grading.
+
+
+            </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq">
+            <div class="faq-question">
+              <input type="checkbox" class="faq-toggle" id="question3">
+              <label for="question3" class="faq-label"> Personalised Help</label>
+              <div class="faq-answer">
+                <p>Using Our Chatroom provided in this platform,we offer you with on conversations with our team to <br>
+                    ensure what you want is delivered on time<br>and as requested.<br>
+                    For further inquiries or complaints however,you can contact(+2547 96413765)directly without hesitation
+
+
+            </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq">
+            <div class="faq-question">
+              <input type="checkbox" class="faq-toggle" id="question4">
+              <label for="question4" class="faq-label"> Security</label>
+              <div class="faq-answer">
+                <p>Our Services are encrypted end to end meaning whatever communications you may<br>
+                    have with Course Correct remains intact and protected for access by only you<br>and 
+                    Course Correct.No third parties included.<br>
+                    This feature applies to other platforms as well<br>
+                    These includes:<br></p>
+                
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com/coursecorrect.ke/" class="fab fa-instagram" target="_blank"></a>
+                        <li><a href="#" class="fab fa-facebook-square"></a></li>
+                        <li><a href="mailto:coursecorrect.ke@gmail.com" class="fas fa-envelope"target="_blank"></a></li>
+                        <li><a href="#" class="fab fa-whatsapp"></a></li>
+                       </li>
+                      </ul>
+
+                    
+
+
+            
+              </div>
+            </div>
+          </div>
+        
+        
+       
+        </div>
+        </section>
+       
+        <footer>@copyright:2023 dashboardApp</footer>
+    </body>
+</html>

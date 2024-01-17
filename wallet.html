@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <title>Services</title>
+    <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Permanent+Marker&family=Playpen+Sans:wght@500&display=swap');
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }
+        
+        body{
+            font-size: 16px;
+            font-family: 'caveat';
+            background-color:rgb(24, 24, 49);
+            border: 1px solid gold;
+            margin: 0;
+            padding: 0 30px 0 30px;
+            overflow: none;
+            width: auto;   
+        }
+        nav{
+            display: flex;
+            flex-direction: column;   
+            background-color: black;
+            margin:0;
+            padding: 0 20px 0 20px;
+            width: 15%;
+            position: fixed;
+            top:0;
+            left:0;
+            margin-top: auto;
+            height: 100%;
+            border-radius: 20px;
+            
+        }
+        a{
+            display: flex;
+            
+            height: 40px;
+            width: auto;
+            background: linear-gradient(145deg,rgb(4, 4, 102),darkblue);
+            color: gold;
+            border-radius: 30px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;    
+            text-decoration: none;
+            margin: 20px 0 20px 10px;  
+        padding: 8px 16px;
+        
+        }
+        a:hover{
+            background:lightblue;
+            box-shadow: inset 29px 29px 58px #0031f693,
+                        inset -29px -29px 58px lightblue;
+        }
+        section{
+            margin-left: 15%;
+            display:grid;
+            grid-template-rows:;
+            border-radius: 30px;
+            background-color:rgb(24, 24, 49);
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+       
+       
+        footer{
+        background-color: blanchedalmond;
+        color:black;
+       padding:-;
+        text-align: center;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+        }
+        .head{
+            background-color: rgb(0, 0, 0);
+            margin-left: 15%;
+            color: gold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 10px;
+
+        }
+        .title{
+            color: gold;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            color: darkgoldenrod;
+            text-align: center;
+        }
+        .faq {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid darkgoldenrod;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-left:20px ;
+  
+}
+
+/* Style for question labels */
+.faq-label {
+  max-width: 600px;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Hide checkboxes */
+.faq-toggle {
+  display: none;
+}
+
+/* Style for answer boxes */
+.faq-answer {
+  display: none;
+  padding-left: 20px;
+  color: white;
+}
+
+/* Show answer when checkbox is checked */
+.faq-toggle:checked + .faq-label + .faq-answer {
+  display: block;
+}
+.money{
+    width: 150px
+    
+}
+    </style>
+    </head>
+    <body class="body">
+        
+        <nav>
+            
+            <div><h3 class="title">COURSE CORRECT</h3></div>
+            <div class="links">
+        <a href="dashbd.php">Home</a>
+            <a href="services.html">Services</a>
+            <a href="wallet.html">Wallet</a>
+            <a href="chatroom.html">Chatroom</a>
+            <a href="setting.html">Settings</a>
+            <a href="logout.php">logout</a>
+        </div>
+        </nav>
+       
+        <section>
+            <div class="section">
+               
+             <h1 style="font-size: 3vw;">WELCOME <br>TO YOUR<BR>PERSONALISED WALLET</h1>
+               
+                <hr>
+                
+                  <h1 style="font-weight: 700;" >Lets Get  It! </h1>   
+                  <hr>  
+                  <div class="faq">
+                    <div>
+              
+
+                    </div>
+                    <div class="faq-question">
+                        <input type="checkbox" class="faq-toggle" id="question1">
+                      <label for="question1" class="faq-label"> AVAILABLE AMOUNT</label>
+                      <div class="faq-answer">
+                        <p>account money</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq">
+                    <div class="faq-question">
+                      <input type="checkbox" class="faq-toggle" id="question2">
+                      <label for="question2" class="faq-label">PENDING AMOUNT</label>
+                      <div class="faq-answer">
+                        <p>Money owed<br>
+                    </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq">
+                    <div class="faq-question">
+                      <input type="checkbox" class="faq-toggle" id="question3">
+                      <label for="question3" class="faq-label">TOTAL AMOUNT</label>
+                      <div class="faq-answer">
+                        <p>Money spent<br>
+                    </p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <H1 style="font-size: 3vw;">How to Deposit Funds</H1>
+                  <hr>
+                  <p>
+                    Select Payment Methods.<br>
+                    MPESA<br>
+                    
+                    1.Select MPESA<BR>
+                2.Send Money<br>
+                3.Enter Phone Number:0796413765<br>
+                4.Enter Amount<br>
+                5.Enter your privacy Pin
+                <hr>
+                ~Here we ensure your details and toogles made on this Wallet remain Private.
+
+                  </p>
+            </div>
+        </section>
+       
+        <footer>@copyright:2023 dashboardApp</footer>
+    </body>
+</html>

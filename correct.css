@@ -1,0 +1,170 @@
+.body{
+    background-color:rgb(24, 24, 49);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.title{
+    text-align: center;
+    font-size: 1cm;
+    font-family: 'Times New Roman';
+    color: white;
+
+}
+.detail{
+    text-align: center;
+    font-size: 1cm;
+    font-family: italic;
+    color: cornsilk;
+}
+.butt{
+    text-align: center;
+}
+.log{
+    
+    width: 300px;
+    color: blueviolet;
+    background-color:beige;
+    border-radius: 10;
+    height: 40px;
+    transition:opacity 1s;
+    font-size: 0.5;
+}
+log:hover{
+    background-color:purple;
+    opacity: 0.5s;
+}
+.log:active{
+    background-color:blue;
+}
+.buttons{
+    text-align: right;
+}
+.about{
+    width: 100px;
+    color:blueviolet;
+    background-color:white;
+    border-radius: 30px;
+    height: 30px;
+    transition:opacity 1s;
+    font-size: 0.5;
+
+}
+.about:hover{
+    background-color: azure;
+    opacity: 0.5s;
+
+}.about:active{
+    background-color: blue;
+}
+.login{
+    width: 100px;
+    color: blueviolet;
+    background-color:beige;
+    border-radius: 30px;
+    height: 30px;
+    transition:opacity 1s;
+    font-size: 0.5;
+
+}
+.login:hover{
+    background-color: azure;
+    opacity: 0.5s;
+}
+
+.login:active{
+    background-color: blue;
+}
+.contact{
+    
+        width: 100px;
+        color: blueviolet;
+        background-color:beige;
+        border-radius: 30px;
+        height: 30px;
+        transition:opacity 1s;
+        font-size: 0.5;
+    
+    }
+    .contact:hover{
+        background-color: azure;
+        opacity: 0.5s;
+    }
+    
+    .contact:active{
+        background-color: blue;
+}
+.image{
+    width:100px;
+    border-radius:20px;
+    border-color: blueviolet;
+    border-style:ridge;
+}
+.nav{
+    text-align: right;
+    
+    max-width: 70vw;
+    display:flex;
+    background-attachment:white;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content:center;
+    align-items: right;
+    margin: 180px 0;
+
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.info{
+    
+    font-size: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.adv{
+    text-align: center;
+}
+.cale{
+    width: 600px;
+    margin-left: 300px;
+}
+
+   
+
+.lg{
+    width: 700px;
+}
+.first{
+    background-image: url(IMG2.jpg);
+    background-size: cover;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  .social-icons li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .social-icons li a {
+    text-decoration: none;
+   
+    font-size: 70px;
+  }
+  /* Style individual icons (customize as needed) */
+  .social-icons li a:hover {
+    color: darkgoldenrod;
+  }
+  /* Instagram icon style */
+  .social-icons li a.fa-instagram:hover {
+    color: #e4405f;
+  }
+  .social-icons li a.fa-envelope:hover{
+      color: #dd4b39;
+  }
+
+

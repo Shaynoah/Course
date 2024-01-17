@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <title>works</title>
+    <head>
+        <style>
+            *{box-sizing: border-box;}
+            input[type=text],
+            input[type=number]{
+                width: 50%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                background-color: cornsilk;
+                
+        
+            }
+            input[type=text]:focus,
+            input[type=number]:focus{
+                background-color:wheat;
+                outline:bisque;
+                border-radius: 75px;
+                
+            }
+            hr{
+                border: 1px solid gold;
+                margin-bottom: 25px;
+
+            }
+            button{
+                background-color: gold;
+                color: rgb(168, 78, 78);
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+                opacity: 0.9;
+                border-radius: 30px;
+            }
+            button:hover{
+                opacity: 1;
+                color: dark gold;
+            }
+            .container{
+                padding: 16px;
+            }
+            form{
+text-align: center;
+border: 3px solid gray;
+color:gold;
+            }
+            body{
+                background-color: black;
+                width: 75%;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <form method="POST" action="insert.php">
+            <div class="container">
+            <h1>Sign up</h1>
+            <p>Please fill in this form to create an account</p><hr>
+        <label>Name</label><br>
+            
+        <input type="text"name="name"required/><br>
+        <label>Phone Number</label><br>
+        <input type="text"name="phone"required/><br>
+        <label>Email</label><br>
+        <input type="text"name="email"required/><br>
+        <label>Id Number</label><br>
+        <input type="number"name="id"required/><br>
+        <button type="submit">Sign up</button>
+        </form>
+        <div>
+    </body>
+</html>

@@ -47,7 +47,7 @@
     </head>
     <body>
         
-        <form method="POST" action="validate.php">
+        <form method="POST" action="/Course/php/validate.php">
             <div><h1>COURSE CORRECT</h1><br>
                 <h2>LOG IN:</h2><hr>
             </div><br>
@@ -75,9 +75,9 @@
    <a href="correct.html"><button>COURSE CORRECT</button></a>
         </div>
     </form>
-    <a href="correct.html"><button class="back">COURSE CORRECT</button></a>
+    <a href="/Course/public/correct.html"><button class="back">COURSE CORRECT</button></a>
     <p>
-Not a Member? <a class="sign" href="work.html">Create Account</a>
+Not a Member? <a class="sign" href="/Course/public/work.html">Create Account</a>
         </p>
     </body>
 </html>

@@ -139,7 +139,7 @@ h1{
     width: 700px;
 }
 .first{
-    background-image: url(IMG2.jpg);
+    background-image: url(/assets/images/IMG2.jpg);
     background-size: cover;
 }
 .social-icons {

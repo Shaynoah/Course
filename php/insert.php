@@ -10,5 +10,5 @@ $idNumber=$_POST['id'];
 mysqli_query($con,"insert into personalinfo(name,email,phoneNumber,idNumber) values('$name','$email','$phoneNumber','$idNumber');");
 mysqli_close($con);
 $_SESSION['name']=$name;
-header('location: dashbd.php');
+header('location:/Course/php/dashbd.php');
 ?>

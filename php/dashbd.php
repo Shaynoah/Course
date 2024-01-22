@@ -186,18 +186,18 @@ hr{
         <nav>
             <div><h3 class="title">COURSE CORRECT</h3></div>
             <div class="links">
-            <a href="dashbd.php">Home</a>
-            <a href="services.html">Services</a>
-            <a href="wallet.html">Wallet</a>
-            <a href="chatroom.html">Chatroom</a>
-            <a href="setting.html">Settings</a>
-            <a href="logout.php">Logout</a></div>
+            <a href="/Course/php/dashbd.php">Home</a>
+            <a href="/Course/public/services.html">Services</a>
+            <a href="/Course/public/wallet.html">Wallet</a>
+            <a href="/Course/public/chatroom.html">Chatroom</a>
+            <a href="/Course/public/setting.html">Settings</a>
+            <a href="/Course/php/logout.php">Logout</a></div>
         </nav>
         <section>
             <div class="section">
             <h1 style="font-size:3vw;">
             WE HELP YOU<br>GET YOUR<br>GRADES UP!</h1>
-            <img class="log"src="IMG2.jpg"><BR><BR>
+            <img class="log"src="/Course/assets/images/IMG2.jpg"><BR><BR>
             <h1 style="font-size: 3vw;">COURSE CORRECT</h1><hr><br>
            
 
@@ -235,7 +235,7 @@ Section on the Home Page or visit our Instagram profile:<a class="ig" href="http
            <hr>
            <div>
            <video width="100%"height="440"controls>
-                        <source src="suzie.mp4">
+                        <source src="/Course/assets/vedios/suzie.mp4">
                       </video>
                       </div>
              <p>

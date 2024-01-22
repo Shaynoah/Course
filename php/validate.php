@@ -18,7 +18,7 @@ echo($phone);
 if (($name==$USERNAME)&&($phone==$PHONENUMBER)){
     $_SESSION['name']="$USERNAME";
     $_SESSION['phoneNumber']="$PHONENUMBER";
-    header('location:/Course/dashbd.php');
+    header('location:/Course/php/dashbd.php');
 }else{
     echo"you have a wrong username and phoneNumber";
 }
